@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF8">
+<title>JavaScriptの基礎 </title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        today = new Date();
+        document.write(today);
+        document.write("<h1>コンピュータグラフィックス </h1>");
+        document.write("<p> 担当 中村直人 </p>");
+        document.write("<p> この授業では、 WebGL を用いてコンピュータグラフィックスを作成します。 </p>");
+        const image = new Image(128,128); //imageオブジェクトの作成
+        image.src= "ganba.png"; //image のソースの指定
+        document.body.appendChild(image); //image を DOM 要素に組み込む
+</script>
+
+</body>
+</html>
